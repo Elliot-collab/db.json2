@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Car Rental Management System</title>
+</head>
+<body>
+
+<h1>Car Rental Management System</h1>
+
+<form name="carform">
+    Car ID: <input type="text" name="carid"><br><br>
+    Car Name: <input type="text" name="carname"><br><br>
+    Model: <input type="text" name="model"><br><br>
+    Year: <input type="text" name="year"><br><br>
+    Rent/Day: <input type="text" name="rent"><br><br>
+    Status: <input type="text" name="status"><br><br>
+    <input type="button" value="Add Car" onclick="addCar()">
+</form>
+
+<br>
+Search ID: <input type="text" id="searchid">
+<input type="button" value="Search" onclick="searchCar()">
+<p id="result"></p>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Rent</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="data"></tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>

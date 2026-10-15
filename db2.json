@@ -1,0 +1,28 @@
+{
+    "car": [
+        {
+            "id": 1,
+            "name": "Volvo",
+            "model": "V60",
+            "year": 2022,
+            "rent": 750,
+            "status": "Available"
+        },
+        {
+            "id": 2,
+            "name": "Toyota",
+            "model": "Corolla",
+            "year": 2021,
+            "rent": 550,
+            "status": "Available"
+        },
+        {
+            "id": 3,
+            "name": "Tesla",
+            "model": "Model 3",
+            "year": 2023,
+            "rent": 900,
+            "status": "Rented"
+        }
+    ],
+   
